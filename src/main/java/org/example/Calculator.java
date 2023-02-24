@@ -1,7 +1,5 @@
 package org.example;
 
-import io.qameta.allure.Epic;
-
 
 public class Calculator {
     public static void main(String[] args) {
