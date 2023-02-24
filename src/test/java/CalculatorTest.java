@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Epic("Epic1")
+@Feature("Feature 1")
 public class CalculatorTest {
 
     @Test
@@ -12,6 +13,7 @@ public class CalculatorTest {
     @Description("Description related to testAdd test")
     @Severity(SeverityLevel.NORMAL)
     @Tag("Tag1")
+    @Link("https://www.swtestacademy.com/allure-report-junit/")
     public void testAdd() {
         Calculator calc = new Calculator();
 
@@ -27,6 +29,8 @@ public class CalculatorTest {
     @Story("User story2")
     @Description("Description related to testAddWithNegative test")
     @Severity(SeverityLevel.CRITICAL)
+    @Issue("123")
+    @Step("Step1")
     @Tag("Tag2")
     public void testAddWithNegative() {
         Calculator calc = new Calculator();
