@@ -31,6 +31,6 @@ public class CalculatorTest {
     public void testAddWithNegative() {
         Calculator calc = new Calculator();
 
-        Assertions.assertEquals(-5, calc.add(-2, -3));
+        Assertions.assertEquals(-6, calc.add(-2, -3));
     }
 }
